@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0f141f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,9 +24,34 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.profile{
+  border: 2px solid orange;
+  margin: 10px;
+  padding: 10px;
+  width: auto;
+  height: auto;
 }
+
+.productstyle{
+  width: 300px;
+  height: 200px;
+  border: 2px solid white;
+  margin: 20px;
+  background-color: rgb(206, 206, 206);
+  color: black;
+  font-size: 20px;
+}
+
+.productstyle button{
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: green;
+  font-size: 20px;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +61,5 @@
     transform: rotate(360deg);
   }
 }
+
+
